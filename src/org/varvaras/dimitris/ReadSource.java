@@ -18,10 +18,7 @@ public class ReadSource implements Serializable{
            {
         	   
         	   
-        	   
-        	 int t=123;
-        	 t=t+t;
-        	   
+        	        	   
         	   
            	char[] xCoordinates=new char[3];
            	char[] yCoordinates=new char[3];
