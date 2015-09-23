@@ -14,8 +14,15 @@ public class ReadSource implements Serializable{
 		 {
            FileReader file = new FileReader("seatsFile");
            BufferedReader buff = new BufferedReader(file);
-           for (int i=0;i<72;i++)
+           for ( int i=0; i<72; i++ )
            {
+        	   
+        	   
+        	   
+        	 int t=123;
+        	 t=t+t;
+        	   
+        	   
            	char[] xCoordinates=new char[3];
            	char[] yCoordinates=new char[3];
                String line =buff.readLine();
